@@ -200,11 +200,11 @@ A = Array{Int32}(undef, m, n)
 
 ````
 5×5 Matrix{Int32}:
- -1031562416          691  -1074527248          691  -1031561936
-         691  -1031562128          691  -1031562000          691
- -1031562384          691  -1031562032          691  -1031561904
-         691  -1031562096          691  -1031561968          691
- -1031562224          691  -1074526384          691  -1963186160
+ 0  0  0  0  0
+ 0  0  0  0  0
+ 0  0  0  0  0
+ 0  0  0  0  0
+ 0  0  0  0  0
 ````
 
 Now, use nested `for` loops to populate the matrix. The outer loop iterates over columns (j), and the inner loop iterates over rows (i) for each column:
